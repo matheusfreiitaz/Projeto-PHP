@@ -19,7 +19,7 @@ Route::patch('pedidos/{pedido}/pagar', [PedidoController::class, 'marcarComoPago
 // Rota "solta" propositalmente na posição errada (parte do Desafio 5)
 Route::get('pedidos/relatorio', function () {
     return response()->json([
-        'total_pedidos' => \App\Models\Pedido::count(),
+        'total_pedidos' => \App\Models\Pedido::count(),   
         'total_faturado' => \App\Models\Pedido::sum('total'),
     ]);
 })->name('pedidos.relatorio');
