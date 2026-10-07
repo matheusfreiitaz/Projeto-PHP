@@ -7,7 +7,7 @@
  * DESAFIO 5 está escondido na ORDEM das rotas. Depois de colar,
  * tente acessar GET /api/v1/pedidos/relatorio e veja o que acontece.
  */
-
+ 
 use App\Http\Controllers\Api\V1\PedidoController;
 use Illuminate\Support\Facades\Route;
 
