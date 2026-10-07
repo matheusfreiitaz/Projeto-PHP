@@ -11,7 +11,7 @@
 use App\Http\Controllers\Api\V1\PedidoController;
 use Illuminate\Support\Facades\Route;
 
-Route::apiResource('pedidos', PedidoController::class)->except(['update']);
+Route::apiResource('pedidos', PedidoController::class)->except(['update']);  
 
 Route::patch('pedidos/{pedido}/pagar', [PedidoController::class, 'marcarComoPago'])
     ->name('pedidos.pagar');
