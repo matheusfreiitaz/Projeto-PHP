@@ -23,3 +23,4 @@ Route::get('pedidos/relatorio', function () {
         'total_faturado' => \App\Models\Pedido::sum('total'),
     ]);
 })->name('pedidos.relatorio');
+    
