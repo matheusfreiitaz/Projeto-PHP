@@ -5,7 +5,7 @@ use App\Http\Controllers\Api\V1\ProdutoController;
 use Illuminate\Support\Facades\Route;
 
 /*
-|--------------------------------------------------------------------------
+|-------------------------------------------------------------------------- 
 | Rotas da API - ponto principal de estudo deste projeto
 |--------------------------------------------------------------------------
 | 
