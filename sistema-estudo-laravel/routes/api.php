@@ -29,7 +29,7 @@ Route::prefix('v1')->name('v1.')->group(function () {
     // apiResource cria de uma vez: index, store, show, update, destroy
     // GET    /api/v1/categorias
     // POST   /api/v1/categorias
-    // GET    /api/v1/categorias/{categoria}
+    // GET    /api/v1/categorias/{categoria}  
     // PUT    /api/v1/categorias/{categoria}
     // DELETE /api/v1/categorias/{categoria}
     Route::apiResource('categorias', CategoriaController::class);
