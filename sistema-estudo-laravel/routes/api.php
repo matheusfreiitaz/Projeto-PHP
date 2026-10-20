@@ -18,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 
 // Rota simples, sem controller - boa para testar se a API está no ar
 Route::get('/v1/status', function () {
-    return response()->json([
+    return response()->json([  
         'status' => 'ok',
         'hora' => now()->toDateTimeString(),
     ]);
