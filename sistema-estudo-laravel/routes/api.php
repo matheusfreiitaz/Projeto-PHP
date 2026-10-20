@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 |--------------------------------------------------------------------------
 | Rotas da API - ponto principal de estudo deste projeto
 |--------------------------------------------------------------------------
-|
+| 
 | Todas as rotas aqui já entram automaticamente com o prefixo /api
 | (definido no bootstrap/app.php ou RouteServiceProvider, dependendo
 | da versão do Laravel). Por isso os exemplos abaixo apontam para
